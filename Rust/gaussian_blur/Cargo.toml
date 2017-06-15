@@ -1,0 +1,7 @@
+[package]
+name = "gaussian_blur"
+version = "0.1.0"
+authors = ["Andy Maltun <amaltun@gmail.com>"]
+
+[dependencies]
+image = "*"
