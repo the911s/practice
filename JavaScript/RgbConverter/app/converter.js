@@ -1,13 +1,13 @@
 exports.rgbToHex = function(red, green, blue) {
-  var redHex = intToHex2(red);
-  var greenHex = intToHex2(green);
-  var blueHex = intToHex2(blue);
+  var redHex = pad(red.toString(16));
+  var greenHex = pad(green.toString(16));
+  var blueHex = pad(blue.toString(16));
 
   return redHex + greenHex + blueHex;
 };
 
-function intToHex2(int) {
-  return ("0" + int.toString(16)).slice(-2);
+function pad(hexValue) {
+  return ("0" + hexValue).slice(-2);
 }
 
 exports.hexToRgb = function(hexColor) {
