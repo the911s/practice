@@ -1,0 +1,17 @@
+{
+  "name": "rgb_converter",
+  "version": "1.0.0",
+  "description": "Practice TDD in JavaScript by building an RGB to hex converter (thx SemaphoreCI for the tutorial).",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Andy Maltun (copying Igor Šarčević)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "express": "^4.15.4",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0"
+  }
+}
